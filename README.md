@@ -2,6 +2,8 @@
 
 This repository contains an implementation of a YOLOv5 model to make inferences on a Youtube video.
 
+<center><img src="data/img0.PNG"></center>
+
 ## 1. Initial Configuration
 
 1. Create (and activate) a new environment, named `yolo-dect` with Python 3.9.
