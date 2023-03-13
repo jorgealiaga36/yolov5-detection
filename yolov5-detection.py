@@ -6,9 +6,9 @@ import time
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--url', '-u', required=True, type=str, help='video root we want to detect')
-    parser.add_argument('--out-source', '-outs', required=True, type=str, help='directory to store output video')
-    parser.add_argument('--name', '-n', required=True, type=str, help='output video name')
+    parser.add_argument('--url', '-u', required=True, type=str, help='link to video we want to detect')
+    parser.add_argument('--out-source', '-outs', required=True, type=str, help='directory to store video downloaded')
+    parser.add_argument('--name', '-n', required=True, type=str, help='downloaded video name')
 
     return vars(parser.parse_args())
 
