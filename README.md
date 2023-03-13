@@ -40,7 +40,7 @@ For running the code:
 - Make sure you are within the conda enviroment and the proyect directory previously cloned.
 - Run the following command:
 ```
-~$ >python3 yolov5-detection.py --url [link-to-video] --out-source [output-root] --name [video-name]
+~$ python3 yolov5-detection.py --url [link-to-video] --out-source [output-root] --name [video-name]
 ```
 
 
