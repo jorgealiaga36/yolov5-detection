@@ -45,8 +45,8 @@ For running the code:
 
 Where:
 * `--url` or `-u`: Link to video we want to detect.
-* `--out-source` or `-outs`: Directory to store output inference video.
-* `--name` or `-n`: Output video name.
+* `--out-source` or `-outs`: Directory to store video downloaded.
+* `--name` or `-n`: Downloaded video name.
 
 
 
