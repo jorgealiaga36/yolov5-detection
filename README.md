@@ -23,7 +23,7 @@ git clone https://github.com/jorgealiaga36/yolov5-detection.git
 cd yolov5-detection
 ```
 
-3. Download the official repository of the YOLOv5 model and paste it into the current proyect dir.
+3. Download the official repository of the YOLOv5 model and paste it into the current proyect directory.
 * `Link`: https://github.com/ultralytics/yolov5
 
 4. Install required pip packages.
