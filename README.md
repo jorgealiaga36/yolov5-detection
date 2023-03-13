@@ -37,11 +37,17 @@ pip install -r requirements.txt
 
 For running the code:
 
-- Make sure you are within the conda enviroment and the proyect directory previously cloned.
-- Run the following command:
+1. Make sure you are within the conda enviroment and the proyect directory previously cloned.
+2. Run the following command:
 ```
-~$ python3 yolov5-detection.py --url [link-to-video] --out-source [output-root] --name [video-name]
+~$ python yolov5-detection.py --url [link-to-video] --out-source [output-root] --name [video-name]
 ```
+
+Where:
+* `--url` or `-u`: Link to video we want to detect.
+* `--out-source` or `-outs`: Directory to store output inference video.
+* `--name` or `-n`: Output video name.
+
 
 
 
